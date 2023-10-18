@@ -1,0 +1,1 @@
+import{d as r,e as a,r as o,t as n}from"./web.ac6241c9.js";import{a as s}from"./cart.89143c78.js";const d=n("<button class=big-link>Add To Cart"),m=({item:e})=>(()=>{const t=a(d);return t.$$click=()=>s(e),o(),t})();r(["click"]);export{m as AddToCart};
