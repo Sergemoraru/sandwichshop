@@ -10,6 +10,12 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^1.1.2",
+    "@astrojs/netlify": "^3.0.3",
+    "@astrojs/react": "^3.0.3",
+    "@astrojs/rss": "^3.0.0",
+    "@astrojs/solid-js": "^3.0.2",
+    "@nanostores/solid": "^0.4.2",
     "astro": "^3.3.1",
     "markdown-it": "^13.0.2",
     "mdx": "^0.3.1",
@@ -19,5 +25,9 @@
     "react-dom": "^18.2.0",
     "sanitize-html": "^2.11.0",
     "solid-js": "^1.8.3"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^13.0.3",
+    "@types/sanitize-html": "^2.9.2"
   }
 }
